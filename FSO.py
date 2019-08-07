@@ -1,2 +1,3 @@
 #fso_alignment_code
-import 
+import numpy as np
+import series,time
