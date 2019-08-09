@@ -1,0 +1,27 @@
+import time
+import serial
+ 
+ser = serial.Serial('COM4', 9600)
+ 
+while True:
+ value = ser.readline()
+ print(value)
+ time.sleep(0.5)
+ ----------------------------------------------------------------------
+ 
+ #Arduino_code
+ #define sensorPin 2
+ 
+int val = 0;
+ 
+void setup()
+{
+   Serial.begin(9600);
+}
+ 
+void loop()
+{
+    val = analogRead(sensorPin);
+    Serial.println(val);
+    delay (500);
+}
