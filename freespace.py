@@ -50,7 +50,7 @@ class MSerial:
     
     def set_accl(self, axis, acc=None):
         """"Set acceleration for channel(axis)"""
-        assert axis in self.axis_names:
+        assert axis in self.axis_names
         fmt=dict(axis=self.axis_names[axis])
         basefmt='{axis} {cmd} {value}'
         if acc is not None: 
@@ -60,7 +60,7 @@ class MSerial:
     
     def set_vel(self, axis, vel=None):
         """Set VElocity for channel(axis)"""
-        assert axis in self.axis_names:
+        assert axis in self.axis_names
         fmt=dict(axis=self.axis_names[axis])
         basefmt='{axis} {cmd} {value}'
         if vel is not None: 
@@ -70,7 +70,7 @@ class MSerial:
             
     def set_home(self, axis, steps=None):
         """set home position for selected motor(channel)"""
-        assert axis in self.axis_names:
+        assert axis in self.axis_names
         fmt=dict(axis=self.axis_names[axis])
         basefmt='{axis} {cmd} {value}'
         if steps is not None: 
@@ -80,7 +80,7 @@ class MSerial:
             
     def move_target(self, steps, axis):
         """Moves to target position"""
-        assert axis in self.axis_names:
+        assert axis in self.axis_names
         fmt=dict(axis=self.axis_names[axis])
         basefmt='{axis} {cmd} {value}'
         if steps is not None: 
@@ -90,7 +90,7 @@ class MSerial:
             
     def move_rel(self, steps, axis):
         """Moves to relative position"""
-        assert axis in self.axis_names:
+        assert axis in self.axis_names
         fmt=dict(axis=self.axis_names[axis])
         basefmt='{axis} {cmd} {value}'
         if steps is not None: 
@@ -100,7 +100,7 @@ class MSerial:
         
     def set_motor(self, axis, value):
         """set type of motor: 0=No motor, 1=Unknown, 2=Tiny, 3=Standard"""
-        assert axis in self.axis_names:
+        assert axis in self.axis_names
         fmt=dict(axis=self.axis_names[axis])
         basefmt='{axis} {cmd} {value}'
         if value is not None: 
@@ -126,7 +126,7 @@ class MSerial:
     
     def stop(self, axis):
         """Stop motion for an axis/motor"""
-        assert axis in self.axis_names:
+        assert axis in self.axis_names
         fmt=dict(axis=self.axis_names[axis])
         basefmt='{axis} {cmd}' 
         cmd=basefmt.format(cmd="ST", **fmt)
