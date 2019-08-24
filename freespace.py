@@ -135,3 +135,21 @@ class MSerial:
     def save(self):
         """save parameters to controller memory"""
         return self.sendrecv('SM')
+    
+    def recall(self, value):
+        """Recall paramters 0-factory set & 1-last saved"""
+        basefmt='{cmd} {value}' 
+        cmd=basefmt.format(cmd="RCL", value=value)
+        return self.sendrecv(cmd)
+    
+    def abort(self):
+        """abort motion abruptly"""
+        return self.sendrecv('AB')
+    
+    def motion_done(self, axis):
+        """motion done status"""
+        assert axis in self.axis_names
+        fmt=dict(axis=self.axis_names[axis])
+        basefmt='{axis} {cmd}' 
+        cmd=basefmt.format(cmd="MD?", **fmt)
+        return self.sendrecv(cmd)
