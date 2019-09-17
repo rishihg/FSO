@@ -1,0 +1,25 @@
+2019-09-12 15:58:29.305, 19132, 1, CmdLib exception.
+   System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at =ZoLAz3xgXHFjiFJ9vmXuxkEHua=.=aB210JS148ja1X0fPuJrDeZvhS=(=UPSIo2AOJdYiGHQmONEwYvTZby= , =pCI8reXKYzxHW1ErUR9DPEXpIO= , Int32 )
+   at =ZoLAz3xgXHFjiFJ9vmXuxkEHua=..ctor(=UPSIo2AOJdYiGHQmONEwYvTZby= deviceIO, =pCI8reXKYzxHW1ErUR9DPEXpIO= deviceCmds, Int32 msecDelayForDiscovery, String& deviceKey)
+2019-09-12 16:00:19.119, 19916, 1, ********** Entry Path = C:\Program Files\New Focus\New Focus Picomotor Application\Samples\C#\Model 8742\RelativeMove\bin\Debug\RelativeMove.exe **********
+2019-09-12 16:00:19.126, 19916, 1, OS: Windows 8 Version: 6.2.9200.0
+2019-09-12 16:00:19.128, 19916, 1, 64-bit OS, 64-bit mode.
+2019-09-12 16:00:19.129, 19916, 1, System Folder: C:\Windows\system32
+2019-09-12 16:00:19.132, 19916, 1, C:\Windows\system32\UsbDll.dll Version 5.0.7
+2019-09-12 16:01:40.626, 744, 1, ********** Entry Path = C:\Program Files\New Focus\New Focus Picomotor Application\Samples\C#\Model 8742\RelativeMove\bin\Debug\RelativeMove.exe **********
+2019-09-12 16:01:40.752, 744, 1, OS: Windows 8 Version: 6.2.9200.0
+2019-09-12 16:01:40.756, 744, 1, 64-bit OS, 64-bit mode.
+2019-09-12 16:01:40.757, 744, 1, System Folder: C:\Windows\system32
+2019-09-12 16:01:40.760, 744, 1, C:\Windows\system32\UsbDll.dll Version 5.0.7
+2019-09-12 16:24:19.475, 20388, 1, ********** Entry Path = C:\Program Files\New Focus\New Focus Picomotor Application\Samples\C#\Model 8742\RelativeMove\bin\Debug\RelativeMove.exe **********
+2019-09-12 16:24:19.852, 20388, 1, OS: Windows 8 Version: 6.2.9200.0
+2019-09-12 16:24:19.856, 20388, 1, 64-bit OS, 64-bit mode.
+2019-09-12 16:24:19.857, 20388, 1, System Folder: C:\Windows\system32
+2019-09-12 16:24:19.865, 20388, 1, C:\Windows\system32\UsbDll.dll Version 5.0.7
+2019-09-12 16:24:48.955, 20716, 1, ********** Entry Path = C:\Program Files\New Focus\New Focus Picomotor Application\Samples\C#\Model 8742\RelativeMove\bin\Debug\RelativeMove.exe **********
+2019-09-12 16:24:49.024, 20716, 1, OS: Windows 8 Version: 6.2.9200.0
+2019-09-12 16:24:49.028, 20716, 1, 64-bit OS, 64-bit mode.
+2019-09-12 16:24:49.029, 20716, 1, System Folder: C:\Windows\system32
+2019-09-12 16:24:49.030, 20716, 1, C:\Windows\system32\UsbDll.dll Version 5.0.7

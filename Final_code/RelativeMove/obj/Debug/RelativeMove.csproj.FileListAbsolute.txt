@@ -1,0 +1,10 @@
+C:\Program Files\New Focus\New Focus Picomotor Application\Samples\C#\Model 8742\RelativeMove\bin\Debug\RelativeMove.exe
+C:\Program Files\New Focus\New Focus Picomotor Application\Samples\C#\Model 8742\RelativeMove\bin\Debug\RelativeMove.pdb
+C:\Program Files\New Focus\New Focus Picomotor Application\Samples\C#\Model 8742\RelativeMove\bin\Debug\CmdLib.dll
+C:\Program Files\New Focus\New Focus Picomotor Application\Samples\C#\Model 8742\RelativeMove\bin\Debug\UsbDllWrap.dll
+C:\Program Files\New Focus\New Focus Picomotor Application\Samples\C#\Model 8742\RelativeMove\bin\Debug\NpEthernet.dll
+C:\Program Files\New Focus\New Focus Picomotor Application\Samples\C#\Model 8742\RelativeMove\obj\Debug\RelativeMove.csprojAssemblyReference.cache
+C:\Program Files\New Focus\New Focus Picomotor Application\Samples\C#\Model 8742\RelativeMove\obj\Debug\RelativeMove.csproj.CoreCompileInputs.cache
+C:\Program Files\New Focus\New Focus Picomotor Application\Samples\C#\Model 8742\RelativeMove\obj\Debug\RelativeMove.csproj.CopyComplete
+C:\Program Files\New Focus\New Focus Picomotor Application\Samples\C#\Model 8742\RelativeMove\obj\Debug\RelativeMove.exe
+C:\Program Files\New Focus\New Focus Picomotor Application\Samples\C#\Model 8742\RelativeMove\obj\Debug\RelativeMove.pdb
